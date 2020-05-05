@@ -558,7 +558,7 @@ class Dashboard extends Component {
                     </DropdownMenu>
                   </ButtonDropdown>
                 </ButtonGroup>
-                <div className="text-value">9.823</div>
+                <div className="text-value">9823</div>
                 <div>Members online</div>
               </CardBody>
               <div className="chart-wrapper mx-3" style={{ height: "70px" }}>
@@ -592,8 +592,8 @@ class Dashboard extends Component {
                     </DropdownMenu>
                   </Dropdown>
                 </ButtonGroup>
-                <div className="text-value">9.823</div>
-                <div>Members online</div>
+                <div className="text-value">87</div>
+                <div>New Orders</div>
               </CardBody>
               <div className="chart-wrapper mx-3" style={{ height: "70px" }}>
                 <Line
@@ -626,8 +626,8 @@ class Dashboard extends Component {
                     </DropdownMenu>
                   </Dropdown>
                 </ButtonGroup>
-                <div className="text-value">9.823</div>
-                <div>Members online</div>
+                <div className="text-value">823</div>
+                <div>Members Repeated</div>
               </CardBody>
               <div className="chart-wrapper" style={{ height: "70px" }}>
                 <Line
@@ -660,8 +660,8 @@ class Dashboard extends Component {
                     </DropdownMenu>
                   </ButtonDropdown>
                 </ButtonGroup>
-                <div className="text-value">9.823</div>
-                <div>Members online</div>
+                <div className="text-value">23</div>
+                <div>Orders Returned</div>
               </CardBody>
               <div className="chart-wrapper mx-3" style={{ height: "70px" }}>
                 <Bar
