@@ -300,7 +300,10 @@ export default class CreateProduct extends Component {
                     <Col md="6">
                       <FormGroup>
                         <Label>Stock Issue</Label>
-                        <Input type="number" placeholder="Raise Item Issue after" />
+                        <Input
+                          type="number"
+                          placeholder="Raise Item Issue after"
+                        />
                       </FormGroup>
                     </Col>
                   </Row>
@@ -358,6 +361,9 @@ export default class CreateProduct extends Component {
                 </Form>
               </CardBody>
             </Card>
+          </Col>
+          <Col md="12">
+            <Button color="success">Save Product</Button>
           </Col>
         </Row>
       </div>
